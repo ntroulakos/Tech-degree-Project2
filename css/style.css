@@ -130,3 +130,78 @@ img {
 .namefooter {
     margin-top: 40px;
 }
+
+@media (min-width: 769px) {
+
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .main-header {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .item {
+        background: none;
+    }
+    .introduction {
+        display: flex;
+        align-items: center;
+        max-width: 90%;
+    }
+    .profilepic {
+        order: 1;
+        padding-left: 30px;
+    }
+    .introduction p {
+        padding-left: 20px;
+    }
+    .col {
+        flex: 1 50%;
+    }
+    .row {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 90%;
+    }
+    .list-nav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    .list-nav a {
+        padding: 5px;
+        font-weight: bold;
+    }
+    .desktop, .namefooter {
+        margin-left: 20px;
+    }
+}
+
+/* @media (min-width: 1025px) {
+
+    .main-header,
+    .row {
+        width: 80%;
+        max-width: 1150px;
+    }
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+} */
